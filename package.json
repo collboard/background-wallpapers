@@ -1,6 +1,6 @@
 {
-  "name": "@collboard/background-wallpapers",
-  "version": "0.1.0",
+    "name": "@collboard/background-wallpapers",
+    "version": "0.1.0",
     "description": "Simple sample module for Collboard.com with the art (object on the board), tool, and attribute",
     "license": "SEE LICENSE IN LICENSE",
     "contributors": [
@@ -19,9 +19,8 @@
         "postversion": "git push && git push --tags"
     },
     "devDependencies": {
-        "@collboard/modules-sdk": "27.40.100",
+        "@collboard/modules-sdk": "27.41.101",
         "tslint": "6.1.3"
-
     },
     "dependencies": {}
 }
