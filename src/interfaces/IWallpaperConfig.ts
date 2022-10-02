@@ -36,7 +36,7 @@ export interface IWallpaperConfig {
     /**
      * Module categories omitting "Wallpaper" and "Education" which will be added automatically
      */
-    categories?: Array<string_module_category>;
+    categories?: string_module_category[];
 
     /**
      * Icon of the module

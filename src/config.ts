@@ -3,7 +3,7 @@ import { IWallpaperConfig } from './interfaces/IWallpaperConfig';
 
 
 
-export const WALLPAPERS: Array<IWallpaperConfig> = [
+export const WALLPAPERS: IWallpaperConfig[] = [
     {
         name: 'space/galaxy' /* <- [0] */,
 
