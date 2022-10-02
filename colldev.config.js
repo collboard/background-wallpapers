@@ -1,3 +1,3 @@
 module.exports = {
-    entryPath: './src/00-index.ts',
+  entryPath: './src/modules.ts',
 };
