@@ -1,4 +1,0 @@
-makeBackgroundWallpaperModule
-
-
-// !!! Use IWallpaperConfig

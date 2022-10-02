@@ -12,3 +12,8 @@ export const WALLPAPERS: Array<IWallpaperConfig> = [
     },
 
 ];
+
+
+/**
+ * TODO: Maybe include (sub)cathegories
+ */
