@@ -1,5 +1,5 @@
 import { Authors, BackgroundWallpaperArt, declareModule } from '@collboard/modules-sdk';
-import { name as packageName } from '../package.json';
+import { name as packageName, version } from '../package.json';
 import { PAPERS } from './config';
 
 for (const { name: paperName, title, description, icon, size } of PAPERS /* !!! FRAMES not PAREPRS ACRY */) {
@@ -8,6 +8,7 @@ for (const { name: paperName, title, description, icon, size } of PAPERS /* !!! 
     declareModule({
         manifest: {
             name: `${packageName}/space`,
+            version,
             deprecatedNames: 'SpaceBackground',
             title: { en: 'Space', cs: 'Vesmír' },
             description: { en: 'Changes white background to space.', cs: 'Vymění bílé pozadí za vesmírné.' },
