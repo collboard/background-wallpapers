@@ -30,6 +30,7 @@ export const WALLPAPERS: IWallpaperConfig[] = [
         src: surrealCity,
         // TODO: Add MidJourney to authors list
         // TODO: Make also color palette + skin + UI to by in color sync with this wallpaper
+        // TODO: Cover/contain, position - do not drop important parts like city and the church, drop the sky
     },
 ];
 
