@@ -1,7 +1,6 @@
-import galaxy1 from '../assets/wallpapers/galaxy1.jpg';
+import surrealCity from '../assets/wallpapers/midjourney/Pavol_Hejn_surreal_Starry_starry_night_bc58dc1d-c5b8-4223-805d-91a91440abc1.png';
+import galaxy1 from '../assets/wallpapers/space/galaxy1.jpg';
 import { IWallpaperConfig } from './interfaces/IWallpaperConfig';
-
-
 
 export const WALLPAPERS: IWallpaperConfig[] = [
     {
@@ -20,10 +19,17 @@ export const WALLPAPERS: IWallpaperConfig[] = [
          * https://www.pikrepo.com/fgicl/black-and-blue-galaxy-digital-wallpaper
          */
         src: galaxy1,
-
-
-
-
+    },
+    {
+        name: 'midjourney/surreal-city' /* <- [0] */,
+        // TODO: CS
+        title: { en: 'Surreal city' },
+        description: { en: 'Surreal city dra' },
+        categories: ['Space'],
+        // TODO: !!! Test that using src is working> icon: '🌌',
+        src: surrealCity,
+        // TODO: Add MidJourney to authors list
+        // TODO: Make also color palette + skin + UI to by in color sync with this wallpaper
     },
 ];
 
