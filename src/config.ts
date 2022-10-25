@@ -1,63 +1,40 @@
-import { SCALE_PIXELS } from '@collboard/modules-sdk';
-import { Vector } from 'xyzt';
-import { IPaperConfig } from './interfaces/IWallpaperConfig';
+import surrealCity from '../assets/wallpapers/midjourney/Pavol_Hejn_surreal_Starry_starry_night_bc58dc1d-c5b8-4223-805d-91a91440abc1.png';
+import galaxy1 from '../assets/wallpapers/space/galaxy1.jpg';
+import { IWallpaperConfig } from './interfaces/IWallpaperConfig';
 
-
-// !!! Cathegories
-
-export const WALLPAPERS: Array<IWallpaperConfig> = [
+export const WALLPAPERS: IWallpaperConfig[] = [
     {
-      title: { en: 'Space', cs: 'Vesmír' },
-      description: { en: 'Changes white background to space.', cs: 'Vymění bílé pozadí za vesmírné.' }
+        name: 'space/galaxy' /* <- [0] */,
 
+        deprecatedNames: 'SpaceBackground',
+        title: { en: 'Space', cs: 'Vesmír' },
+        description: { en: 'Changes white background to space.', cs: 'Vymění bílé pozadí za vesmírné.' },
+        categories: ['Geography', 'Space'],
+        icon: '🌌',
 
-
-
-
-/*
-
-!!!
-
-
-
-         name: `${packageName}/space`,
-            version,
-            deprecatedNames: 'SpaceBackground',
-            title: { en: 'Space', cs: 'Vesmír' },
-            description: { en: 'Changes white background to space.', cs: 'Vymění bílé pozadí za vesmírné.' },
-
-            categories: [
-                'Wallpaper',
-                'Geography',
-                'Space',
-                'Education' /* Not template because to user do not seem so * /,
-              ],
-              icon: '🌌', // TODO: Icon because other planets than Earth and Moon do not have emoji icon
-              screenshots: [
-                  /*TODO:* /
-              ],
-              author: Authors.hejny,
-          },
-
-          async setup(systems) {
-              const { virtualArtVersioningSystem } = await systems.request('virtualArtVersioningSystem');
-
-              /**
-               * Sources:
-               * https://www.wallpaperflare.com/
-               * https://www.wallpaperflare.com/galaxy-wallpaper-landscape-photo-of-sky-star-astrophotography-wallpaper-zubhc
-               * https://www.pikrepo.com/fgicl/black-and-blue-galaxy-digital-wallpaper
-               * /
-
-
-
-
-*/
-
-
-
-
-
+        /**
+         * Sources:
+         * https://www.wallpaperflare.com/
+         * https://www.wallpaperflare.com/galaxy-wallpaper-landscape-photo-of-sky-star-astrophotography-wallpaper-zubhc
+         * https://www.pikrepo.com/fgicl/black-and-blue-galaxy-digital-wallpaper
+         */
+        src: galaxy1,
     },
-
+    {
+        name: 'midjourney/surreal-city' /* <- [0] */,
+        // TODO: CS
+        title: { en: 'Surreal city' },
+        description: { en: 'Surreal city dra' },
+        categories: ['Space'],
+        // TODO: !!! Test that using src is working> icon: '🌌',
+        src: surrealCity,
+        // TODO: Add MidJourney to authors list
+        // TODO: Make also color palette + skin + UI to by in color sync with this wallpaper
+        // TODO: Cover/contain, position - do not drop important parts like city and the church, drop the sky
+    },
 ];
+
+/**
+ * TODO: Maybe include (sub)cathegories (Already included in name [0])
+ */
+c;
