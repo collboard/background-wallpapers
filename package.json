@@ -1,6 +1,6 @@
 {
     "name": "@collboard/background-wallpapers",
-    "version": "0.1.30",
+    "version": "0.1.31",
     "description": "Simple sample module for Collboard.com with the art (object on the board), tool, and attribute",
     "license": "SEE LICENSE IN LICENSE",
     "contributors": [
