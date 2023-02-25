@@ -1,10 +1,10 @@
 import {
-    Arrayable,
-    IStringMessage,
-    string_char_emoji,
-    string_module_category,
-    string_module_name,
-    string_url_image,
+  Arrayable,
+  IStringMessage,
+  string_char_emoji,
+  string_module_category,
+  string_module_name,
+  string_url_image
 } from '@collboard/modules-sdk';
 
 export interface IWallpaperConfig {
