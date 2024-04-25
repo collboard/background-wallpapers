@@ -1,7 +1,7 @@
 {
     "name": "@collboard/background-wallpapers",
     "version": "0.1.136",
-    "description": "Wallpaper of 🎴 Background wallpapers",
+    "description": "Background wallpapers for Collboard.com",
     "license": "SEE LICENSE IN LICENSE",
     "contributors": [
         "Pavol Hejný <pavol.hejny@collboard.com> (https://collboard.com/-/about/team)"
