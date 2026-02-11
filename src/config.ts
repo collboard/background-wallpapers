@@ -37,3 +37,4 @@ export const WALLPAPERS: IWallpaperConfig[] = [
 /**
  * TODO: Maybe include (sub)cathegories (Already included in name [0])
  */
+c;
